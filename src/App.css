@@ -1,0 +1,44 @@
+.App{
+  min-height: 100vh;
+  background-image: url('bg.jpg');
+}
+
+.search-form{
+  min-height: 15vh;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 30%;
+  height: 30px;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.search-button{
+  background-color: rgb(59, 192, 163); 
+  border: none;
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+  font-style: oblique;
+  border-radius: 10px;
+  padding: 10px 20px;
+  color: white;
+}
+
+.search-button:hover{
+  font-size: 16px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.recipe-description{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
